@@ -1,0 +1,54 @@
+# Composer dependency directory
+/vendor/
+
+# Composer package file
+composer.lock
+
+# PHPUnit test results
+/build/
+
+# Laravel specific
+/storage/
+# Cache, Logs, and Sessions
+/bootstrap/cache/
+*.log
+
+# Symfony specific
+/var/
+
+# Generic
+*.log
+*.cache
+*.key
+*.pem
+*.zip
+*.sql
+*.tar.gz
+*.env
+.env.local
+.env.*.local
+.env.testing
+.env.test
+phpunit.xml
+phpunit.xml.dist
+
+# IDE/Editor specific files
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+*.old
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules if using NodeJS or front-end build tools
+/node_modules/
+yarn.lock
+package-lock.json
+
+# Deployment files
+.deploy/
+public_html/

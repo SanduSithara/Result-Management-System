@@ -1,0 +1,16 @@
+{
+    "name": "dell/a",
+    "autoload": {
+        "psr-4": {
+            "Dell\\A\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "a"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "9.5"
+    }
+}
